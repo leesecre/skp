@@ -482,54 +482,14 @@ SERVICES SECTION
 /**********************
 CLIENTS SECTION
 ***********************/
-#cultures {
+#culture {
 	padding: 145px 0;
-	font-family: none;
-}
-
-.cultures-content {
-	text-align: center;
-}
-
-.cultures-content blockquote {
-	color: #000000;
-	font-size: 15px;
-	margin-top: 37px;
-}
-
-.cultures-content blockquote footer {
-	margin-top: 30px;
-	color: #000000;
-}
-
-.cultures-content blockquote footer:before {
-	content: '';
-}
-
-.cultures-logs-container {
-	margin-top: 115px;
-	text-align: center;
-}
-
-.single-culture-container {
-	color: #000000;
-}
-
-.culture {
-	background: #F2F2F2;
-	padding: 58px 61px 98px;
-	text-align: center;
-}
-
-.single-culture-container-img {
-	min-height: 140px;
-	max-height: auto;
-	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffffff;
 }
 
 .culture-banner img{
 	object-fit: cover;
-
 	height: 500px;;
 	width: 100%; 
 	position: relative; 
@@ -541,24 +501,44 @@ CLIENTS SECTION
 .culture-banner h1{
 	position: relative; 
 	left: 0px; 
-	top: -300px; 
+	top: -520px; 
 	color: white; 
 	font-weight: 700; 
 	text-shadow: 0px 3px 6px gray;
 }
 
-.culture-banner p{
-	position: relative; 
-	left: 0px; 
-	top: -290px; 
-	color: white; 
-	font-size: 20px;  
-	font-weight: 500; 
-	text-shadow: 0px 3px 6px gray;
+.cultures-content {
+	text-align: center;
+	padding-top: 100px;
 }
 
 .cultures-content p {
 	padding-top: 20px;
+	padding-left: 125px;
+	padding-right: 125px;
+}
+
+.cultures-logs-container {
+	margin-top: 115px;
+	text-align: center;
+}
+
+.single-culture-container {
+	color: #000000;
+	background: #F2F2F2;
+	padding: 58px 61px 98px;
+	text-align: center;
+}
+
+.single-culture-container h4 {
+	font-weight: bold;
+}
+
+.single-culture-container img {
+	min-height: 140px;
+	max-height: auto;
+	padding-top: 40px;
+	padding-bottom: 10px;
 }
 
 /**********************
@@ -569,51 +549,34 @@ CONTACT SECTION
 	background-color: #101012;
 	color: #ffffff;
 	padding: 55px 0 58px;
-}
-
-.contact-subsection {
+ }
+ 
+ .contact-subsection {
 	border: 1px solid #707070;
 	text-align: center;
 	min-height: 500px;
 	box-sizing: border-box;
-}
-
-#about-subsection {
-	padding: 95px 92px 149px;
-}
-
-#about-subsection h2:after {
-	display: block;
-	content: '';
-	width: 30px;
-	height: 2px;
-	background-color: #00c7fc;
-	margin: 46px auto 0;
-}
-
-#about-subsection p {
-	margin-top: 54px;
-}
-
-#form-subsection {
-	padding: 95px 70px 76px;
+ }
+ 
+ #form-subsection {
+	padding: 30px 50px 20px;
 	overflow: hidden;
-}
-
-#form-subsection .email-label {
-	margin-top: 28px;
-}
-
-#form-subsection input {
+ }
+ 
+ #form-subsection .email-label {
+	margin-top: 20px;
+ }
+ 
+ #form-subsection input {
 	padding: 0 5px;
 	height: 33px;
-}
-
-#form-subsection .message-label {
-	margin-top: 60px;
-}
-
-#form-subsection textarea {
+ }
+ 
+ #form-subsection .message-label {
+	margin-top: 30px;
+ }
+ 
+ #form-subsection textarea {
 	margin: 0;
 	padding: 0 5px;
 	border: 0;
@@ -625,36 +588,36 @@ CONTACT SECTION
 	background: linear-gradient(transparent 49px, #707070 1px);
 	background-size: 100% 50px;
 	background-repeat: repeat-y;
-}
-
-#form-subsection textarea:focus,
-#form-subsection textarea:active {
+ }
+ 
+ #form-subsection textarea:focus,
+ #form-subsection textarea:active {
 	background: linear-gradient(transparent 49px, #ffffff 1px);
 	background-size: 100% 50px;
 	background-repeat: repeat-y;
-}
-
-#form-subsection .btn-default {
+ }
+ 
+ #form-subsection .btn-default {
 	color: #00c7fc;
 	background: transparent;
 	border: 0;
 	border-color: transparent;
 	border-radius: 0;
-	padding: 10px 0;
-	margin-top: 38px;
+	padding: 0px 0;
+	margin-top: 0px;
 	outline: none;
 	box-shadow: none;
-}
-
-#form-subsection .btn-default:hover,
-#form-subsection .btn-default.active.focus, 
-#form-subsection .btn-default.active:focus, 
-#form-subsection .btn-default.active:hover, 
-#form-subsection .btn-default:active.focus, 
-#form-subsection .btn-default:active:focus, 
-#form-subsection .btn-default:active:hover {
+ }
+ 
+ #form-subsection .btn-default:hover,
+ #form-subsection .btn-default.active.focus, 
+ #form-subsection .btn-default.active:focus, 
+ #form-subsection .btn-default.active:hover, 
+ #form-subsection .btn-default:active.focus, 
+ #form-subsection .btn-default:active:focus, 
+ #form-subsection .btn-default:active:hover {
 	color: #ffffff;
-}
+ }
 
 /**********************
 FOOTER SECTION
